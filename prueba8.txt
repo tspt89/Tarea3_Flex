@@ -1,0 +1,17 @@
+program ocho
+begin
+   x := 3;
+   if x > 4 then
+   begin
+      x := x + 1;
+      y := x * y
+   end
+   else
+   begin
+      x := 1;
+      y := (x + y) * (3 + x *y);
+      x := x
+   end;
+   repeat x := 1 until x < 3;
+   x := 2
+end.

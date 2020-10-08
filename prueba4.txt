@@ -1,0 +1,5 @@
+program cuatro
+begin
+  begin
+  end
+end.

@@ -1,0 +1,5 @@
+program nueve
+begin
+   repeat x := 1 until x < 3;
+   x := 2
+end.

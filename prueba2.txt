@@ -1,0 +1,5 @@
+program dos
+begin
+   x := y + 3;
+   y := 5
+end.
