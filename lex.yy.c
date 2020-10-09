@@ -491,9 +491,9 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "Tarea31.lex"
+#line 1 "Tarea32.lex"
 /* Archivo con el reconocedor léxico la calculadora */
-#line 3 "Tarea31.lex"
+#line 3 "Tarea32.lex"
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -778,7 +778,7 @@ YY_DECL
 		}
 
 	{
-#line 75 "Tarea31.lex"
+#line 75 "Tarea32.lex"
 
 
 #line 785 "lex.yy.c"
@@ -840,177 +840,177 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 77 "Tarea31.lex"
+#line 77 "Tarea32.lex"
 { yylval = atoi(yytext); return INT; }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 79 "Tarea31.lex"
+#line 79 "Tarea32.lex"
 {return FLOAT;}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 81 "Tarea31.lex"
+#line 81 "Tarea32.lex"
 {return PROGRAM;}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 82 "Tarea31.lex"
+#line 82 "Tarea32.lex"
 {return SUMA;}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 83 "Tarea31.lex"
+#line 83 "Tarea32.lex"
 {return RESTA;}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 84 "Tarea31.lex"
+#line 84 "Tarea32.lex"
 {return MULTI;}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 85 "Tarea31.lex"
+#line 85 "Tarea32.lex"
 {return DIVIDE;}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 86 "Tarea31.lex"
+#line 86 "Tarea32.lex"
 {return ASIG;} 
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 87 "Tarea31.lex"
+#line 87 "Tarea32.lex"
 {return MAYOR;} 
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 88 "Tarea31.lex"
+#line 88 "Tarea32.lex"
 {return MENOR;} 
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 89 "Tarea31.lex"
+#line 89 "Tarea32.lex"
 {return IGUAL;} 
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 90 "Tarea31.lex"
+#line 90 "Tarea32.lex"
 {return PCOMA;}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 91 "Tarea31.lex"
+#line 91 "Tarea32.lex"
 {return PARENI;}
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 92 "Tarea31.lex"
+#line 92 "Tarea32.lex"
 {return PAREND;}	
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 93 "Tarea31.lex"
-{return PRIF;}
+#line 93 "Tarea32.lex"
+{return IF;}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 94 "Tarea31.lex"
+#line 94 "Tarea32.lex"
 {return THEN;}
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 95 "Tarea31.lex"
+#line 95 "Tarea32.lex"
 {return EL;}
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 96 "Tarea31.lex"
+#line 96 "Tarea32.lex"
 {return WHILE;}
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 97 "Tarea31.lex"
+#line 97 "Tarea32.lex"
 {return DO;}
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 98 "Tarea31.lex"
+#line 98 "Tarea32.lex"
 {return REPEAT;}
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 99 "Tarea31.lex"
+#line 99 "Tarea32.lex"
 {return UNTIL;}
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 100 "Tarea31.lex"
+#line 100 "Tarea32.lex"
 {return BEG;}
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 101 "Tarea31.lex"
+#line 101 "Tarea32.lex"
 {return END;}
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 102 "Tarea31.lex"
+#line 102 "Tarea32.lex"
 {return FINEXP;}
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 105 "Tarea31.lex"
+#line 105 "Tarea32.lex"
 {return COMA;}
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 106 "Tarea31.lex"
+#line 106 "Tarea32.lex"
 {return DOSPTO;} 
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 107 "Tarea31.lex"
+#line 107 "Tarea32.lex"
 {return NVPTO;} 
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 109 "Tarea31.lex"
+#line 109 "Tarea32.lex"
 {return MAIGU;} 
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 110 "Tarea31.lex"
+#line 110 "Tarea32.lex"
 {return MEIGU;}
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 112 "Tarea31.lex"
+#line 112 "Tarea32.lex"
 {return FINIF;}
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 113 "Tarea31.lex"
+#line 113 "Tarea32.lex"
 {return FINW;}
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 114 "Tarea31.lex"
+#line 114 "Tarea32.lex"
 {return BOOLEAN;}
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 115 "Tarea31.lex"
+#line 115 "Tarea32.lex"
 {return BOOLEAN;}
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 117 "Tarea31.lex"
+#line 117 "Tarea32.lex"
 {yylval3 = yytext; return ID;}
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 118 "Tarea31.lex"
+#line 118 "Tarea32.lex"
 ECHO;
 	YY_BREAK
 #line 1017 "lex.yy.c"
@@ -2018,9 +2018,9 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 118 "Tarea31.lex"
+#line 118 "Tarea32.lex"
 
-
+void prog();
 int opt_stmts();
 int stmt();
 int stmtPrima();
@@ -2034,7 +2034,8 @@ int expresion();
 int expresionPrima();
 int expr();
 int exprPrima();
-void funcError();
+void error();
+void acepta();
 
 int main(int argc, char * argv[]){
 
@@ -2050,246 +2051,254 @@ int main(int argc, char * argv[]){
 	exit(1);
   }
 
-  lectura = yylex();
-  if(lectura == PROGRAM){
+  prog();
+}
+
+void prog(){
+	lectura = yylex();
+	if(lectura == PROGRAM){
+		lectura = yylex();
+		if(lectura == ID){
 			lectura = yylex();
-			if(lectura == ID){
-				lectura = yylex();
-				if(lectura == BEG){
-					if(opt_stmts() == OPT_STMTS){
-						if(lectura == FINEXP){
-							printf("Si\n");
-							exit(0);
-						} else {
-							funcError();
-						}
+			if(lectura == BEG){
+				if(opt_stmts() == OPT_STMTS){
+					if(lectura == FINEXP){
+						printf("Si\n");
+						exit(0);
+					} else {
+						error();
 					}
 				}
 			}
 		}
+	}
+}
+
+int opt_stmts(){
+	printf("OPT_STMTS\n");
+	lectura = yylex();
+	printf("OPT->STMTS: DEBUG --> %d\n", lectura);
+	//En caso de que sea palabra vacia
+	if(lectura == FINEXP || lectura == END){
+		printf("--> Retorna opt_stmts por encontrar end o end.\n");
+		return OPT_STMTS;
+	} else if(stmt_lst() == STMT_LST){
+		return OPT_STMTS;
+	}
+}
+
+int stmt_lst(){
+	printf("STMT_LST\n");
+	if(stmt() == STMT){
+		printf("DEBUGG stmt_lst: %d\n", lectura);
+		if(lectura == PCOMA){
+			if(stmt_lstPrima() == STMT_LST_PRIMA){
+				return STMT_LST;
+			}
+		} if(lectura == FINEXP){
+			return STMT_LST;
+		}
+	}
+}
+
+int stmt_lstPrima(){
+	lectura = yylex();
+	printf("stmt prima prueba para terminar recursividad %d\n", lectura);
+	if(stmt() == STMT){
+		printf("1 DEBUGG STMT_LST': %d\n",lectura );
+
+		if(lectura == FINEXP){
+			printf("2. PASA FINEXP\n");
+			return STMT_LST_PRIMA;
+		}
+		////////////////////////////////////////////////////
+		lectura = yylex();
+
+		if(lectura == PCOMA){ //En caso de ';' -> que aplique recursividad
+			printf("DEBUG PARA END EN STMT_LST_PRIMA: %d\n", lectura);
+			if(stmt_lstPrima() == STMT_LST_PRIMA){
+				return STMT_LST_PRIMA;
+			}
+		} else if(lectura == FINEXP){ //Puede que se modique porque solo trabaja en END. para el archivo 2
+			printf("PASA SEGUNDA CONDICIONAL PARA END. FINEXP\n");
+			return STMT_LST_PRIMA;
+		}
+	} else if(lectura == FINEXP){
+			printf("PASA SEGUNDA CONDICIONAL PARA END. FINEXP\n");
+	}
+	printf("PASA AL FINAL DE STMT_LST PRIMA : %d\n",lectura);
 }
 
 int stmt(){
-	
-	if(lectura == ID){	// id := expr
+	printf("STMT\n");
+	printf("%d\n", lectura);
+	if(lectura == ID){
+		printf("ID := EXPR\n");
 		lectura = yylex();
-		
-		if(lectura == ASIG){		
-			
+		if(lectura == ASIG){
+			lectura = yylex();
 			if(expr() == EXPR){
-				
+				printf("EXPR EN STMT PARA END: %d\n", lectura);
 				return STMT;
-			}	
-		}
-	} else if(lectura == IF){ // if expression then stmt stmt'
-		if(expresion() == EXPRESION) {
-			lectura = yylex();
-			if(lectura == THEN){
-				if(stmt() == STMT){
-					if(stmtPrima() == STMT_PRIMA){
-						return STMT;
-					}
 				}
-			}
 		}
-	} else if(lectura == WHILE){ // while expresion do stmt
-		if(expresion() == EXPRESION){
-			lectura = yylex();
-			if(lectura == DO){
-				if(stmt() == STMT){
-					return STMT;
-				}
-			}
-		}
-	} else if(lectura == REPEAT){ // repeat stmt until expression
-		if(stmt() == STMT){
-			lectura = yylex();
-			if(lectura == UNTIL){ 
-				if(expresion() == EXPRESION){
-					return STMT;
-				}
-			}
-		}
-	} else if(lectura == BEG){
+	} else if(lectura == IF){
+		printf("IF EXPRESION THE STMT STMT'\n");
 		lectura = yylex();
+		if(expresion() == EXPRESION){
+			printf("PASA EXPRESION -->->->->->-<->\n");
+			printf("Expression en lectura: %d\n", lectura);
+			if(lectura == THEN){
+				lectura = yylex();
+					printf("ADADSAASDADS: %d\n", lectura);
+				if(stmt() == STMT){
+					printf("--->--->--->PASA STMT DEL IF EXPRESSION BEGIN THEN STMT\n");
+				}
+			}
+		}
+	} else if(lectura == WHILE){
+		printf("ENTRA A STMT WHILE\n");
+	} else if(lectura == REPEAT){
+
+	} else if(lectura == BEG){
+		printf("LLEGA A BEGIN\n");
+		
 		if(opt_stmts() == OPT_STMTS){
-			if(lectura == END)
+			printf("1. END BEGIN STMT %d\n", lectura);
+			if(lectura == END){
+				printf("SALE BEGIN\n");
+				lectura = yylex();
 				return STMT;
+			}
 		}
 	}
-	
+	printf("No debe de llegar hasta aqui\n");
 	return -1;
 }
 
 int stmtPrima(){
-	lectura = yylex();
-	if(lectura == FINEXP){
-		return STMT_PRIMA;
-	}
-	if(lectura == ELSE){
-		if(stmt() == STMT){
-			return STMT_PRIMA;
-		}
-	}
-	return -1;
-}
 
-int opt_stmts(){
-	lectura = yylex();
-	if(lectura == FINEXP || lectura == END){ //En caso de que exista palabra vacia
-		return OPT_STMTS;
-	}
-
-	if(stmt_lst() == STMT_LST){
-		return OPT_STMTS;
-	}
-	return -1;
-}
-
-int stmt_lst(){
-	
-	if(stmt() == STMT){
-		
-		lectura = yylex();
-		if(lectura == PCOMA){
-			if(stmt_lstPrima() == STMT_LST_PRIMA){
-			return STMT_LST;
-			}
-		}
-		
-	}
-	return -1;
-}
-
-int stmt_lstPrima(){
-	
-	if(lectura == PCOMA){
-		
-		if(stmt() == STMT){
-			if(stmtPrima() == STMT_PRIMA){
-				return STMT_LST_PRIMA;
-			}
-		}
-		
-	}
-	return -1;
 }
 
 int expr(){
-	if (term() == TERM){
-		
-		if( exprPrima() == EXPR_PRIMA){
-			
+	printf("EXPR\n");
+	if(term() == TERM){
+		printf("REGRESA A TERM\n");
+		printf("EXPR DEBBUG %d\n", lectura);
+		//En base a la lectura, determina si la siguiente ficha es suma o resta
+		//para determinar si se llama a expr'
+		printf("--> REGRESA DE EXPR PRIMA  A EXPR\n");
+		if(lectura == SUMA || lectura == RESTA){
+			if(exprPrima() == EXPRESSION_PRIMA){
+				printf("TERMINA EXPRPRIMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n");
+				return EXPR;
+			}
+		} else {
+			printf("--> De EXPR a STMT?\n");
 			return EXPR;
 		}
 	}
-	return -1;
+	
 }
 
 int exprPrima(){
-	printf("PASA - %d\n",lectura);
-	lectura =  yylex();
-	
-	if(lectura == SUMA){
-		if(term() == TERM){
+	printf("EXPR' -> SUMA | RESTA\n");
+	lectura = yylex();
+	printf("\nexpr' lectura --> %d\n",lectura);
+	if(term() == TERM){
+		printf("-->EXPR PRIMA --> %d\n", lectura);
+		if(lectura == SUMA || lectura == RESTA){
 			if(exprPrima() == EXPR_PRIMA){
-				return EXPR_PRIMA;
+				printf("Segunda suma o resta dentro de expr prima\n");
+				return EXPRESSION_PRIMA;
 			}
+		} else if(lectura == PCOMA || lectura == END || lectura == FINEXP){ //Palabra vacia
+			printf("ENTRA CONDICIONAL EXPR PRIMA PARA END\n");
+			return EXPRESSION_PRIMA;
 		}
-		
-	} else if(lectura == RESTA){
-		if(term() == TERM){
-			if(exprPrima() == EXPR_PRIMA){
-				return EXPR_PRIMA;
-			}
-		}
+		//En caso de que coincida la palabra vacia, y creo que seria el cado en donde termina esta expresion
+		// en ';', END, o END. (FINEXP)
+		//if(lectura == PCOMA || lectura == END || lectura == FINEXP){
+			//printf("PASA PUNTO Y COMA\n");	
+			//return EXPR_PRIMA;
+		//} else if(exprPrima() == EXPR_PRIMA){
+			//printf("PASA SEEEEEEEEEEEEEGUNDOOOOOOOOOOOO\n");
+			//return EXPR_PRIMA;
+		//}
 	}
-	return -1;
 }
 
 int term(){
+	printf("TERM -> LEC ACTUAL: %d\n",lectura);
 	
 	if(factor() == FACTOR){
-		
-		if(termPrima() == TERM_PRIMA){
-			
+		printf("TERM -> FACTOR\n");
+		lectura = yylex();
+		printf("DEBUGG TERM: %d\n", lectura);
+		if(lectura == MULTI || lectura == DIVIDE){
+			if(termPrima() == TERM_PRIMA){
+				return TERM;
+			}
+		} else {
+			printf("PALABRA VACIA EN TERM PRIMA %d\n",lectura);
 			return TERM;
 		}
 	}
-	return -1;
 }
 
 int termPrima(){
-	lectura = yylex();
-	if(lectura == MULTI){
-		if(termPrima() == TERM_PRIMA){
+	printf("Term Prima -> %d\n",lectura);
+	if(lectura == MULTI || lectura == DIVIDE){
+		lectura = yylex();
+		if(factor() == FACTOR){
+				printf("-->PASA FACTOR TERM' %d\n",lectura);
+			if(termPrima() == TERM_PRIMA){
+				return TERM_PRIMA;
+			}
+		}
+	} else {
+		lectura = yylex();
+		if(lectura == END || lectura == THEN || lectura == DO || lectura == UNTIL || lectura == FINEXP || lectura == EL){
 			return TERM_PRIMA;
 		}
-	} else if(lectura == DIVIDE){
-		if(termPrima() == TERM_PRIMA){
-			return TERM_PRIMA;
-		}
-	} else if (factor() == FACTOR){
-		return TERM_PRIMA;
+		printf("!-Term Prima -> %d\n",lectura);
 	}
+	printf("No deberia de llegar hasta aqui el term' -> %d\n",lectura);
 	return -1;
 }
 
 int factor(){
-	
-	lectura = yylex();
-	
-	if(lectura == PARENI){	
-		if(expr() == EXPR){
-			lectura = yylex();
-			if(lectura == PAREND){ //? Como se resuelve esto despues del expr() ?
-				return FACTOR;
-			}
-		}
-	} else if(lectura == ID){
-		
+	printf("FACTOR -> %d %s\n",lectura,yylval3);
+	if(lectura == ID || lectura == INT){
 		return FACTOR;
-	} else if(lectura == INT){
-		return FACTOR;
+	} else if(lectura == PARENI){
+		printf("ARREGLAR PARENTESIS!\n");
+		lectura = yylex();
 	}
-
-	return -1;
 }
 
 int expresion(){
-	
-	lectura = yylex();
-	if(lectura == PAREND){
-		
-	}
-	if(term() == TERM){
-		if(expresionPrima() == EXPRESSION_PRIMA){
-			return EXPRESION;
-		}
-	}
-	return -1;
-}
-
-int expresionPrima(){
-	lectura = yylex();
-	if(lectura == SUMA){
-		if(term() == TERM){
-			if(expresionPrima()== EXPRESSION_PRIMA){
-				return EXPRESSION_PRIMA;
-			}
-		}
-	} else if(lectura == RESTA){
-		if(term() == TERM){
-			if(expresionPrima() == EXPRESSION_PRIMA){
-				return EXPRESSION_PRIMA;
+	printf("EXPRESON: %d\n", lectura);
+	if(expr() == EXPR){
+		printf("lectura expr: %d\n", lectura);
+		if(lectura == MENOR || lectura == MAYOR || lectura == IGUAL){
+			printf("DEBUGG SIGNO EXPR: %d\n", lectura);
+			lectura = yylex();
+			if(expr() == EXPR){
+				printf("PASA EXPR EXPRESSION !!!!!!!!!!!!!!\n");
+				return EXPRESION;
 			}
 		}
 	}
-
-	return -1;
 }
 
-void funcError(){
+void error(){
 	printf("No\n");
 	exit(1);
 }
+
+void acepta(){
+	printf("Si\n");
+	exit(1);
+}
+

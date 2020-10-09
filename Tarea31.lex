@@ -169,11 +169,9 @@ int stmt(){
 	
 	if(lectura == ID){	// id := expr
 		lectura = yylex();
-		
 		if(lectura == ASIG){		
-			
 			if(expr() == EXPR){
-				
+	
 				return STMT;
 			}	
 		}
@@ -355,9 +353,7 @@ int factor(){
 int expresion(){
 	
 	lectura = yylex();
-	if(lectura == PAREND){
-		
-	}
+	
 	if(term() == TERM){
 		if(expresionPrima() == EXPRESSION_PRIMA){
 			return EXPRESION;

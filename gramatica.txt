@@ -1,0 +1,32 @@
+prog -> program id begin opt_stmts end.
+
+stmt -> id := expr
+	| if expresion then stmt stmtPrima
+	| while expresion do stmt
+	| repeat stmt until expresion
+	| begin opt_stmts end
+
+stmtPrima -> else stmt | 3
+
+opt_stmts -> stmt_lst | 3
+
+stmt_lst -> stmt stmt_lstPrima
+stmt_lstPrima -> ; stmt stmt_lstPrima | 3
+
+expr -> term exprPrima
+exprPrima -> + term exprPrima
+			| - term exprPrima
+			| 3
+
+term -> factor termPrima
+termPrima -> * factor termPrima
+			| / factor termPrima
+			| 3
+
+factor -> ( expr )
+		| id
+		| num
+
+expresion -> expr < expr
+			| expr > expr
+			| expr = expr
